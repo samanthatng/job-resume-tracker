@@ -1,0 +1,20 @@
+{
+  "name": "job-resume-tracker-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Backend for the Job Application Resume Tracker: Claude-tailored resumes, docx generation, Google Drive upload.",
+  "main": "server/index.js",
+  "scripts": {
+    "dev:server": "node server/index.js",
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "cors": "^2.8.5",
+    "docx": "^9.0.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "googleapis": "^144.0.0",
+    "serverless-http": "^3.2.0"
+  }
+}
